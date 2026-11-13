@@ -21,7 +21,5 @@ if st.button("Submit"):
     st.write("Nationality:",nationality)
     if agree:
         st.success("Thank you for Registering!")
-    
-
-
-
+    else:
+        st.warning("Please check 'I Agree' before submitting.")
