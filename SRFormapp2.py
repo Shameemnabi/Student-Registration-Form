@@ -7,7 +7,7 @@ course=st.text_input("Course")
 phno=st.text_input("Phone Number")
 address=st.text_area("Address")
 gender=st.radio("Gender",["Female","Male"])
-nationality=st.selectbox("Nationality",["INDIA","USA","UK","SA"])
+nationality=st.selectbox("Nationality",["INDIAN","USA","UK","SA"])
 agree=st.checkbox("I Agree")
 if st.button("Submit"):
     st.subheader("Registered Information")
@@ -20,7 +20,7 @@ if st.button("Submit"):
     st.write("Gender:",gender)
     st.write("Nationality:",nationality)
     if agree:
-        st.write("Thank you for Registering!")
+        st.success("Thank you for Registering!")
     
 
 
