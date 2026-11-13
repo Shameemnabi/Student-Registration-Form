@@ -20,7 +20,7 @@ if st.button("Submit"):
     st.write("Gender:",gender)
     st.write("Nationality:",nationality)
     if agree:
-        st.write("Thank you for Registering!Your details have been saved")
+        st.write("Thank you for Registering!")
     
 
 
